@@ -1,8 +1,11 @@
+import React from "react"
+import Navbar from '../components/navbar'
 
 export default function Home() {
   return (
     <>
-    <h1 className='mx-4 bg-red-300 text-3xl'>hello suraj world</h1>
-    </>
+ <h1>hello it is index also</h1>
+ <Navbar/>
+  </>
   )
 }
